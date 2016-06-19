@@ -1,4 +1,5 @@
 <?php
+die('hi');
 /**
  * Created by PhpStorm.
  * User: Abderrahim
