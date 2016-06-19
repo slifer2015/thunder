@@ -1,0 +1,152 @@
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+
+.body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*
+#login {
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    font-family: inherit;
+    border: 1px solid #1bc5b3;
+    padding: 20px 20px 20px;
+
+}*/
+
+#tableCenter {
+    width: 1300px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    font-family: inherit;
+    border: 4px solid #ffffff;
+
+}
+
+#mainAdmin {
+    border: 1px dashed grey;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #DCE6F7
+}
+
+#logout {
+    float: right;
+    padding: 5px;
+    border: 1px gray
+}
+
+/*----------------------------------------------
+CSS For profilePage
+------------------------------------------------*/
+
+#ProfileCenter {
+    width: 850px;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    font-family: inherit;
+    border: 4px solid #ffffff;
+
+}
+
+#CenterCol {
+    margin-bottom: auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#PhotoAvatar {
+    /* Width and height of photo container */
+    width: 121px;
+    height: 124px;
+    border: 2px solid #f04124;
+    border-radius: 100px;
+    /* For visibility. Delete me */
+    /* border: 1px solid brown;*/
+
+}
+
+#PhotoPreview {
+    /* Width and height of photo container */
+    width: 91px;
+    height: 94px;
+    border: 2px solid #f04124;
+    border-radius: 100px;
+    /* For visibility. Delete me */
+    /* border: 1px solid brown;*/
+
+}
+
+#PhotoAdminPreview {
+    /* Width and height of photo container */
+    width: 51px;
+    height: 54px;
+    border: 4px solid #ffffff;
+    border-radius: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5px;
+    /* For visibility. Delete me */
+    /* border: 1px solid brown;*/
+
+}
+.img-rounded {
+    border-radius: 6px
+}
+
+.img-thumbnail {
+    display: inline-block;
+    width: 100% \9;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.img-circle {
+    border-radius: 50%
+}
+
+#Info strong {
+    /* Give it a width */
+    display: inline-block;
+    width: 100px;
+
+    /* For visibility. Delete me */
+    border: 1px solid orange;
+}
+
+#Info span {
+    /* Give it a width */
+    display: inline-block;
+    width: 250px;
+
+    /* For visibility. Delete me */
+    border: 1px solid purple;
+}

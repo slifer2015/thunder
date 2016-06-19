@@ -1,0 +1,148 @@
+
+/*
+*    FORM
+*/
+form label {
+    color: #ffffff;
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.25em;
+    margin: .75em 0;
+}
+/*
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="search"],
+form input[type="password"],
+form textarea {
+    background-color: rgb(255,255,255);
+    border-radius: 1px;
+    display: block;
+    margin: 6px 0 12px 0;
+    padding: .8em .55em;
+    transition: all 400ms ease;
+    width: 90%;
+}
+
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form input[type="search"]:focus,
+form input[type="password"]:focus,
+form textarea:focus,
+form select:focus {
+    border-color: #4195fc;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px #4195fc;
+}
+form input[type="text"]:invalid:focus,
+form input[type="email"]:invalid:focus,
+form input[type="number"]:invalid:focus,
+form input[type="search"]:invalid:focus,
+form input[type="password"]:invalid:focus,
+form textarea:invalid:focus,
+form select:invalid:focus {
+    border-color: rgb(248,66,66);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgb(248,66,66);
+}*/
+
+form button {
+    background-color: #50c1e9;
+    border: 1px solid rgba(0,0,0,.1);
+    color: rgb(255,255,255);
+    font-family: 'Varela Round', sans-serif;
+    font-size: .85em;
+    padding: .55em .9em;
+    transition: all 400ms ease;
+}
+
+form button:hover {
+    background-color: #1bc5b3;
+    cursor: pointer;
+}
+
+.semi-transparent{
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: #fff; /* fallback color for old browsers */
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+}
+.semi-transparent-button {
+    font-size: medium;
+    display: block;
+    box-sizing: border-box;
+    margin:5% auto;
+    padding: 8px;
+    width: 80%;
+    max-width: 200px;
+    background: #fff; /* fallback color for old browsers */
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+}
+.semi-transparent-button:hover,
+.semi-transparent-button:focus,
+.semi-transparent-button:active {
+    background: #1bc5b3;
+    border: 1px solid #fff;
+    color: #ffffff;
+    transition: all 0.5s ease-in;
+}
+
+
+/***
+Home screen
+**/
+
+.navigationBar {
+    background: #2196F3;
+    border-radius: 1px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.textStyle {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    margin-left: 5%;
+}
+.bodyAll {
+    background: #84c7c1;/*url(../images/site-cover.jpg) no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+.container2 {
+    background: rgba(19, 35, 47, 0.9);
+    padding: 40px;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
